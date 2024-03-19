@@ -7,11 +7,11 @@ function Homework29() {
 
   // Функции для увеличения и уменьшения счетчика
   const onMinus = () => {
-    setCount(prevCount => prevCount - 1)
+    setCount(prevValue => prevValue - 1)
   }
 
   const onPlus = () => {
-    setCount(prevCount => prevCount + 1)
+    setCount(prevValue => prevValue + 1)
   }
 
   return (
