@@ -1,10 +1,10 @@
-import Counter from "../../components/CounterTwo/Counter"
+import CounterTwo from "../../components/CounterTwo/CounterTwo"
 import { Homework30Wrapper } from "./styles"
 
 function Homeworks30() {
   return (
     <Homework30Wrapper>
-      <Counter />
+      <CounterTwo />
     </Homework30Wrapper>
   )
 }

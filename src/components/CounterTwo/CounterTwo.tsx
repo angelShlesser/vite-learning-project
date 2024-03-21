@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { CounterWrapper, ValueContainer, Value, ButtonControl } from "./styles"
 
-function Counter() {
+function CounterTwo() {
   const [count, setCount] = useState<number>(0)
 
   const Increment = () => {
@@ -33,4 +33,4 @@ function Counter() {
   )
 }
 
-export default Counter
+export default CounterTwo
