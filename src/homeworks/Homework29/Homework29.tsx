@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Counter from "../../components/Counter/Counter"
+import Counter from "components/Counter/Counter"
 import { Homework29Wrapper } from "./styles"
 
 function Homework29() {

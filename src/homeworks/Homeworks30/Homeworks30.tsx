@@ -1,4 +1,4 @@
-import CounterTwo from "../../components/CounterTwo/CounterTwo"
+import CounterTwo from "components/CounterTwo/CounterTwo"
 import { Homework30Wrapper } from "./styles"
 
 function Homeworks30() {
