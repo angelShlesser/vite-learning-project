@@ -1,7 +1,7 @@
-import styled from "@emotion/styled"
+import styled from "@emotion/styled";
 
 interface ButtonComponentProps {
-  isRed: boolean | undefined
+  isRed: boolean | undefined;
 }
 
 export const ButtonComponent = styled.button<ButtonComponentProps>`
@@ -14,16 +14,16 @@ export const ButtonComponent = styled.button<ButtonComponentProps>`
     isRed ? "red" : disabled ? "grey" : "#1f27f5"}; */
   background-color: ${({ isRed, disabled }) => {
     if (isRed) {
-      return "red"
+      return "red";
     }
 
     if (disabled) {
-      return "grey"
+      return "grey";
     }
 
-    return "#1f27f5"
+    return "#1f27f5";
   }};
   color: white;
   font-size: 16px;
   cursor: ${({ disabled }) => (disabled ? "default" : "pointer")};
-`
+`;
