@@ -1,7 +1,7 @@
-import styled from "@emotion/styled"
+import styled from "@emotion/styled";
 
 interface InputComponentProps {
-  isWhite?: boolean
+  isWhite?: boolean;
 }
 
 export const InputContainer = styled.div`
@@ -10,12 +10,12 @@ export const InputContainer = styled.div`
   gap: 4px;
   width: 100%;
   height: fit-content;
-`
+`;
 
 export const InputLabel = styled.label`
   font-size: 16px;
   color: #6f6f6f;
-`
+`;
 
 export const InputComponent = styled.input<InputComponentProps>`
   width: 100%;
@@ -37,10 +37,10 @@ export const InputComponent = styled.input<InputComponentProps>`
     border: ${({ disabled }) =>
       disabled ? "1px solid black" : "1px solid #1f27f5"};
   }
-`
+`;
 
 export const ErrorContainer = styled.div`
   font-size: 16px;
   color: red;
   height: 18px;
-`
+`;

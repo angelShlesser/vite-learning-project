@@ -1,6 +1,6 @@
-import { ButtonComponent } from "./styles"
+import { ButtonComponent } from "./styles";
 
-import { ButtonProps } from "./types"
+import { ButtonProps } from "./types";
 
 function Button({
   isRed = false,
@@ -19,7 +19,7 @@ function Button({
     >
       {name}
     </ButtonComponent>
-  )
+  );
 }
 
-export default Button
+export default Button;

@@ -16,7 +16,7 @@ function CounterTwo() {
 
   const Divide = () => {
     if (count !== 0) {
-      setCount(prevValue => parseFloat((prevValue / 2).toFixed(2)))
+      setCount(prevValue => Number((prevValue / 2).toFixed(2)))
     }
   }
 
